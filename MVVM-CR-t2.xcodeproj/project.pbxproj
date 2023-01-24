@@ -10,12 +10,13 @@
 		BF71A913297E8B4000CBDFEB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF71A912297E8B4000CBDFEB /* AppDelegate.swift */; };
 		BF71A915297E8B4000CBDFEB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF71A914297E8B4000CBDFEB /* SceneDelegate.swift */; };
 		BF71A917297E8B4000CBDFEB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF71A916297E8B4000CBDFEB /* ViewController.swift */; };
-		BF71A91A297E8B4000CBDFEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF71A918297E8B4000CBDFEB /* Main.storyboard */; };
 		BF71A91C297E8B4100CBDFEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF71A91B297E8B4100CBDFEB /* Assets.xcassets */; };
 		BF71A91F297E8B4100CBDFEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF71A91D297E8B4100CBDFEB /* LaunchScreen.storyboard */; };
 		BF71A92A297E8B4100CBDFEB /* MVVM_CR_t2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF71A929297E8B4100CBDFEB /* MVVM_CR_t2Tests.swift */; };
 		BF71A934297E8B4100CBDFEB /* MVVM_CR_t2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF71A933297E8B4100CBDFEB /* MVVM_CR_t2UITests.swift */; };
 		BF71A936297E8B4100CBDFEB /* MVVM_CR_t2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF71A935297E8B4100CBDFEB /* MVVM_CR_t2UITestsLaunchTests.swift */; };
+		BF71A943297E8BAB00CBDFEB /* CoordinatorAndRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF71A942297E8BAB00CBDFEB /* CoordinatorAndRouter.swift */; };
+		BF71A947297F920700CBDFEB /* ReusableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF71A946297F920700CBDFEB /* ReusableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +41,6 @@
 		BF71A912297E8B4000CBDFEB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BF71A914297E8B4000CBDFEB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		BF71A916297E8B4000CBDFEB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		BF71A919297E8B4000CBDFEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BF71A91B297E8B4100CBDFEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF71A91E297E8B4100CBDFEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BF71A920297E8B4100CBDFEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +49,8 @@
 		BF71A92F297E8B4100CBDFEB /* MVVM-CR-t2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MVVM-CR-t2UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF71A933297E8B4100CBDFEB /* MVVM_CR_t2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVM_CR_t2UITests.swift; sourceTree = "<group>"; };
 		BF71A935297E8B4100CBDFEB /* MVVM_CR_t2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVM_CR_t2UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BF71A942297E8BAB00CBDFEB /* CoordinatorAndRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorAndRouter.swift; sourceTree = "<group>"; };
+		BF71A946297F920700CBDFEB /* ReusableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,10 +104,11 @@
 				BF71A912297E8B4000CBDFEB /* AppDelegate.swift */,
 				BF71A914297E8B4000CBDFEB /* SceneDelegate.swift */,
 				BF71A916297E8B4000CBDFEB /* ViewController.swift */,
-				BF71A918297E8B4000CBDFEB /* Main.storyboard */,
 				BF71A91B297E8B4100CBDFEB /* Assets.xcassets */,
 				BF71A91D297E8B4100CBDFEB /* LaunchScreen.storyboard */,
 				BF71A920297E8B4100CBDFEB /* Info.plist */,
+				BF71A942297E8BAB00CBDFEB /* CoordinatorAndRouter.swift */,
+				BF71A946297F920700CBDFEB /* ReusableViewController.swift */,
 			);
 			path = "MVVM-CR-t2";
 			sourceTree = "<group>";
@@ -233,7 +236,6 @@
 			files = (
 				BF71A91F297E8B4100CBDFEB /* LaunchScreen.storyboard in Resources */,
 				BF71A91C297E8B4100CBDFEB /* Assets.xcassets in Resources */,
-				BF71A91A297E8B4000CBDFEB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,8 +260,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF71A943297E8BAB00CBDFEB /* CoordinatorAndRouter.swift in Sources */,
 				BF71A917297E8B4000CBDFEB /* ViewController.swift in Sources */,
 				BF71A913297E8B4000CBDFEB /* AppDelegate.swift in Sources */,
+				BF71A947297F920700CBDFEB /* ReusableViewController.swift in Sources */,
 				BF71A915297E8B4000CBDFEB /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -297,14 +301,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		BF71A918297E8B4000CBDFEB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BF71A919297E8B4000CBDFEB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		BF71A91D297E8B4100CBDFEB /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -442,9 +438,9 @@
 				INFOPLIST_FILE = "MVVM-CR-t2/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -470,9 +466,9 @@
 				INFOPLIST_FILE = "MVVM-CR-t2/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -495,7 +491,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = WE65J257FL;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "au.com.apptech.MVVM-CR-t2Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -515,7 +511,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = WE65J257FL;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "au.com.apptech.MVVM-CR-t2Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -534,6 +530,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = WE65J257FL;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "au.com.apptech.MVVM-CR-t2UITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -552,6 +549,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = WE65J257FL;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "au.com.apptech.MVVM-CR-t2UITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
