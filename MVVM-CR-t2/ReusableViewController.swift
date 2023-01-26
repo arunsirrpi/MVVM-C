@@ -46,7 +46,7 @@ final class ReusableDemoViewController: UIViewController, CoordinatableScreen, V
     }
     
     deinit {
-        print("deallocating : \(viewModel.name)")
+        print("deallocating : \(viewModel.name) and screen id \(screenID) and address \(Unmanaged.passUnretained(self).toOpaque())")
     }
     
     private let infoLabel: UILabel = {
